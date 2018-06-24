@@ -31,3 +31,7 @@ const JobMaker = (a,r,g,u,m,e,n,t,s) {
 
 ---------------------------------------------------------------------------------
 
+ADVANCED CHALLENGE
+Put each of your jobs into an array.
+
+Iterate over the array, and use document.createElement() to build an <article> element representing each job. The id property of the element should be the name of the business.
