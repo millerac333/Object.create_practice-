@@ -108,6 +108,14 @@ jobArray.push(Hiller);
 console.log(kroger);
 console.log(jobArray);
 
+for (let key in jobArray) {
+    
+    let articleElement = document.createElement('article');
+    articleElement.textContent = jobArray[key].value;
+    articleElement.id = jobArray[key].value;
+    document.getElementById("jobArrayDiv").appendChild(articleElement);
+}
+
 
 
 
